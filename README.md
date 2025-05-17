@@ -29,11 +29,15 @@ This Python bot automatically sets up a fully structured Discord server for you 
 
 ## Tutorial: How to Use
 
-1. **Run the script**
-   Just launch the Python file like any script:
-   `python server_setup.py`
+1. **Run this script**
+   Just launch the txt file to auto download the packages:
+   `pip install requirements.txt in windows / pip3 install requirements.txt for linux`
 
-2. **Answer the prompts in the terminal**
+2. **Run the script**
+   Just launch the Python file like any script:
+   `python setup.py for windows / python3 setup.py for linux`
+
+3. **Answer the prompts in the terminal**
    You'll be asked:
 
    * What is the bot token?
@@ -41,10 +45,10 @@ This Python bot automatically sets up a fully structured Discord server for you 
    * What should be the new server name?
    * Do you want to create a Welcome category?
 
-3. **Add the bot to your server**
+4. **Add the bot to your server**
    After running the script and entering the details, **invite the bot to your server** using the OAuth2 invite link from the [Discord Developer Portal](https://discord.com/developers/applications).
 
-4. **Done!**
+5. **Done!**
    The bot will:
 
    * Auto-run setup when it joins the server
